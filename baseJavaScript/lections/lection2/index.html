@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script src="./script.js"></script> -->
+
+    <button onclick="alert('Товар добавлен в корзину');">Купить</button>
+    <a href="#" onclick="let flag1 = confirm('Закрыть диалог?'); alert(flag1);"
+      >Закрыть диалог</a
+    >
+
+    <script>
+      //   prompt("Тут ввод данных prompt");
+      //   alert("Тутпросто вывод alert");
+
+      //   alert(' "2" == 2 не строгое равенство');
+      //   alert(' "2" === 2   строгое равенство');
+      //   alert(' "2" != 2 не строгое не равенство');
+      //   alert(' "2" !== 2   строгое не равенство');
+      //   alert("alert -вывод, prompt - ввод");
+      //   let userUnswer = prompt("Зимой и летмо одним цветом");
+
+      //   if (userUnswer.toLowerCase() === "елка") {
+      //     alert("Good");
+      //   } else {
+      //     alert("Bad");
+      //   }
+
+      //   let pass = prompt("Введите пароль"); // '123'
+      //   pass = Number(pass); // 123
+      //   //   pass = String(pass); // '123'
+      //   if (pass === 123) {
+      //     alert("Прохоидм дальше");
+      //   } else {
+      //     alert("не Прохоидм дальше");
+      //   }
+
+      let pass = Number(prompt("Введите пароль"));
+      alert(pass === 123 ? "Проходим дальше" : "не проходим");
+    </script>
+  </body>
+</html>
