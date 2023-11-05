@@ -44,6 +44,10 @@ function differenceNumber(num1, num2) {
     return num1 - num2;
   }
   return num2 - num1;
+
+  // 3 вариант от преподавателя
+  return Math.abs(num1 - num2);
+  // разница по модулю. Гениально). Какое бы число не было больше, будет верная разница между этими числами
 }
 
 function muptiplyNumber(num1, num2) {

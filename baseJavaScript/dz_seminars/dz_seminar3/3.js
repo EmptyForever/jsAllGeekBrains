@@ -19,7 +19,6 @@
  * @param {number} num2
  * @param {number} num3
  */
-
 function findMax(num1, num2, num3) {
   let max = num1;
   if (num1 < num2) {

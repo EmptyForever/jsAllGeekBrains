@@ -26,13 +26,16 @@ function salaryCalculate(num) {
 }
 
 const userNum = prompt("Введите пожалуйста, число: ");
+console.log(userNum);
+
+const tempSalar = salaryCalculate(userNum);
+console.log(tempSalar);
+
+const tempRes = Math.round(tempSalar * 100) / 100;
+console.log(tempRes);
+
 if (isFinite(Number(userNum))) {
-  console.log(
-    `Размер заработной платы за вычетом налогов равен ${salaryCalculate(
-      userNum
-    )}.`
-  );
+  console.log(`Размер заработной платы за вычетом налогов равен ${tempRes}.`);
 } else {
   console.log(`Значение задано неверно --> ${userNum}`);
 }
-
